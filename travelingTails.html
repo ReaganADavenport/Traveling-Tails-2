@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Traveling Tails</title>
+        <base target="_blank">
+        <link rel="stylesheet" href="travelingTails.css">
+        <link href="https://fonts.googleapis.com/css?family=Rammetto+One|Indie+Flower|Kodchasan&display=swap" rel="stylesheet">
+   </head>
+   <body>
+        <header class="nav-bar">
+            <h3 class="home-text">HOME</h3>
+        </header>
+        <main class="body-wrapper">
+            <div id="inner-body-wrapper">
+                <div class="title1">
+                    <div class="circTxt" id="test"></div>
+                </div>
+                <div class="small-title-wrap">
+                    <h1 class="small-title-text">Traveling Tails</h1>
+                </div>
+                <div class="pix-blurb-wrap">
+                    <div class="first-dog"></div>
+                    <p class="blurb-above-bar">Find dog friendly places near you!</p>
+                </div>
+                <div class="bar-button-wrap">
+                    <input id="search-bar" type="text" placeholder="Enter your location!" required> 
+                    <button type="submit" id="first-page-button">Fetch!</button>
+                </div>
+            </div> 
+            <div id="second-page" style="display:none;">
+                <div class="map-dog-wrap">
+                    <div class="map-wrapper">
+                        <div id="map"></div>
+                    </div>
+                    <div class="blurb-dog-wrap">
+                        <p class="dog-blurb-style"></p>
+                        <div class="dog-wrapper">
+                            <div class="image-dog2"></div>
+                        </div>
+                        <p class="dog-prompt">Click Me!</p>
+                    </div>
+                </div>
+                <div class="where-buttons-wrap">
+                    <button id="hotels-button">Hotels</button>  
+                    <button id="parks-button">Parks</button>
+                    <button id="vets-button">Health Services</button>
+                    <button id="stores-button">Pet Stores</button>
+                    <button id="restaurant-button">Dining</button>
+                </div> 
+            </div>
+        </main>
+        
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdsm65ywFiu-1TK-v03CKyD03g3T4i0AA"></script>
+        <script src="travelingTails.js"></script>
+        
+    </body>
+</html>
+
+
+<!-- Credit: -->
+<!-- Hotel
+<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.1fa9e96c395ac6e304e6c0155196032e.1558103578440.1558360941571.1558385717897.5&__hssc=57440181.2.1558385717897&__hsfp=2353239846" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+Pet Store
+<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.1fa9e96c395ac6e304e6c0155196032e.1558103578440.1558360941571.1558385717897.5&__hssc=57440181.5.1558385717897&__hsfp=2353239846" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+Parks
+<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.1fa9e96c395ac6e304e6c0155196032e.1558103578440.1558360941571.1558385717897.5&__hssc=57440181.4.1558385717897&__hsfp=2353239846" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+Health Services
+<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.1fa9e96c395ac6e304e6c0155196032e.1558103578440.1558360941571.1558385717897.5&__hssc=57440181.1.1558385717897&__hsfp=2353239846" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+Dining
+<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.1fa9e96c395ac6e304e6c0155196032e.1558103578440.1558360941571.1558385717897.5&__hssc=57440181.3.1558385717897&__hsfp=2353239846" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"                 title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
