@@ -106,11 +106,3 @@ dogImage.addEventListener('click', function(e) {
         dogQuote(); 
 });
 
-function dogQuote() {
-    const dogInfo = 'https://my-little-cors-proxy.herokuapp.com/https://dog-api.kinduff.com/api/facts?number=1';
-    const dogText = document.querySelector('.dog-blurb-style');
-    get(dogInfo)
-    .then(function(response) {
-        dogText.innerHTML = response.facts;   
-    });
-}
