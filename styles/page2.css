@@ -1,0 +1,76 @@
+#second-page{
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+.map-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    /* justify-content: center; */
+    height: 500px;
+    width: 100%;
+    /* border-radius: 5%; */
+    margin:0;
+    padding:0;
+}
+
+.gm-style-iw-d a {
+    text-decoration: none;
+    color: #B22222;
+    font-family: 'Rammetto One', cursive;
+}
+ 
+.gm-style-iw-d a:hover {
+    text-decoration: underline;
+    color: rgb(119, 23, 23);
+}
+
+.gm-style-iw-d a:hover {
+    text-decoration: underline;
+    color: rgb(119, 23, 23);
+}
+
+.blurb-dog-wrap {
+    display: none;
+}
+
+.dog-blurb-style {
+    display: none;
+}
+.dog-wrapper {
+    display: none;
+}
+
+.image-dog2 {
+    display: none;
+}
+
+.dog-prompt {
+    display: none;
+}
+
+#hotels-button, #parks-button, #vets-button, #stores-button, #restaurant-button {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid #B22222;
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Rammetto One', cursive;
+    background-color: #faf2d7;
+    font-size: 12px;
+}
+
+.where-buttons-wrap {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}

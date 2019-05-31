@@ -1,0 +1,82 @@
+/* Mobile landscape screen styles */
+@media screen and (orientation: landscape)
+and (min-device-width: 410px)
+and (max-device-width: 732px) {
+
+   .pix-blurb-wrap {
+       display: flex;
+       flex-direction: column;
+       font-family: 'Indie Flower', cursive;
+       font-size: 16px;
+   }
+
+   .first-dog {
+       width: 150px;
+       height: 150px;
+   }
+
+   .small-title-wrap {
+       display: flex;
+       justify-content: center;
+       align-self: flex-start;
+   }
+
+   .title1 {
+       display: none;
+   }
+
+   .blurb-dog-wrap {
+       display: none;
+   }
+
+   .dog-blurb-style {
+       display: none;
+   }
+   .dog-wrapper {
+       display: none;
+   }
+
+   .image-dog2 {
+       display: none;
+   }
+
+   #second-page{
+       width: 98%;
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .map-dog-wrap {
+       display: flex;
+       flex-direction: row;
+       align-content: center;
+   }
+
+   #map {
+       /* justify-content: center; */
+       height: 470px;
+       width: 530px;
+       position: absolute;
+       margin: 20px;
+   }
+
+   .where-buttons-wrap {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100px;
+       height: auto;
+       margin: 15px;
+   }
+
+   #hotels-button, #parks-button, #vets-button, #stores-button, #restaurant-button {
+       cursor: pointer;
+       transition: all ease-in-out 0.2s;
+       height: 97px;
+       width: 97px;
+       border-radius: 50%;
+       border: 6px solid #B22222;
+       margin: 2px;
+       font-size: 12px;
+   }
+}

@@ -1,0 +1,95 @@
+/* Desktop Size */
+@media only screen and (min-width: 430px) {
+    .home-text {
+        font-size: 17px;
+    }
+
+    .small-title-wrap {
+        display: none;
+    }
+
+    .title1 {
+        font-size: 45px;
+        display: flex;
+        justify-content: center;
+        align-self: flex-start;
+        width: 500px;
+        height: 150px;
+    }
+
+    .map-dog-wrap {
+        display: flex;
+        flex-direction: row;   
+        justify-content: center;
+    }
+    
+
+    #map {
+        height: 500px;
+        width: 650px;
+        border-radius: 5%;
+        border: 3px solid black;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .blurb-dog-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .dog-blurb-style {
+        width: 200px;
+        height: 240px;
+        padding: 8px;
+        font-family: 'Indie Flower', cursive;
+        display: flex;
+        align-self: center;
+        align-content: center;
+    }
+
+    .dog-wrapper {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        align-self: flex-end;
+    }
+
+    .image-dog2 {
+        display: block;
+        background-image: url('https://media.giphy.com/media/5zvSNDhOQF2WqmHsDJ/giphy.gif');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .image-dog2:hover {
+        opacity: 0.5;
+    }
+
+    .dog-prompt {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    #hotels-button, #parks-button, #vets-button, #stores-button, #restaurant-button {
+        cursor: pointer;
+        transition: all ease-in-out 0.2s;
+        height: 108px;
+        width: 108px;
+        border-radius: 50%;
+        border: 6px solid #B22222;
+        margin: 34px;
+        font-weight: bold;
+        font-family: 'Rammetto One', cursive;
+        font-size: 16px;
+    }
+
+    #hotels-button:hover, #parks-button:hover, #vets-button:hover, #stores-button:hover, #restaurant-button:hover{
+        background-color: tan;
+        transform: scale(1.1);
+    }
+    
+}

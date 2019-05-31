@@ -1,0 +1,99 @@
+
+.home-text {
+    display: flex;
+    align-self: center;
+    font-size: 16px;
+    padding: 13px;
+    letter-spacing: 0.4rem;
+}
+
+.home-text:hover {
+    text-decoration: underline;
+}
+
+.body-wrapper {
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    width: 100%;
+}
+
+.inner-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.small-title-wrap {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.title1 {
+    display: none;
+}
+
+.pix-blurb-wrap {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.first-dog {
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: 300px;
+    background-image: url("https://media.giphy.com/media/1oIjn54GS3Bh12AR9m/giphy.gif");
+    background-size: cover;
+    margin: 0;
+}
+
+.blurb-above-bar {
+    align-self: center;
+}
+
+.bar-button-wrap {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+}
+
+#search-bar {
+    border-radius: 25px;
+    border: 3px solid black;
+    max-width: 35rem;
+    width: 100%;
+    padding: 8px;
+    font-weight: bold;
+    font-family: 'Kodchasan';
+    background-color: #faf2d7;
+    font-size: 16px;
+}
+
+#search-bar:focus, #first-page-button:focus,#hotels-button:focus, #parks-button:focus, #vets-button:focus, #stores-button:focus, #restaurant-button:focus {
+    outline:none;
+}
+
+#first-page-button {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 20px 0 60px 0;
+    font-weight: bold;
+    font-family: 'Rammetto One', cursive;
+    background-color: #faf2d7;
+}
+
+#first-page-button:hover {
+    background-color: rgba(210, 59, 59, 0.913);
+    transform: scale(1.1);
+}
